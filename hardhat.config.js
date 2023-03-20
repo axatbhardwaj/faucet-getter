@@ -14,7 +14,7 @@ module.exports = {
   networks: {
     hardhat: {},
     telosTestnet: {
-      url: 'https://polygon-mumbai.g.alchemy.com/v2/4KJMGD12yfwiwU0kVtTP1-Mz5LCAjzqg',
+      url: 'https://testnet.telos.net/evm',
       accounts: [process.env.CONTRACT_DEPLOYER_PRIVATE_KEY],
       networkCheckTimeout: 30000,
     },
